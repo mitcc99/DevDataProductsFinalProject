@@ -3,6 +3,6 @@
 
 ### App: https://mitcc99.shinyapps.io/devdataproducts_finalproject/
 
-### Giithub:
+### Giithub: https://github.com/mitcc99/DevDataProductsFinalProject.git
 
 ### Rpubs Presentation: 
