@@ -1,0 +1,48 @@
+---
+title: "Developing Data Products Week 4 Final Project"
+author: "Mitchell Clarke"
+date: "`r Sys.Date()`"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction and Background
+This presentation is part of the final project for week 4 of the Coursera JHU Developing Data Products course. 
+
+Part one involves deploying an app to RStudio's servers and part two is this presentation on the app.
+
+## Data
+
+We use the mtcars preloaded dataset in R. More information taken from the documentation below.
+
+Description: The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models). 
+
+Source: Henderson and Velleman (1981), Building multiple regression models interactively. Biometrics, 37, 391–411.
+
+Use "?mtcars" for more information
+
+## Quick Look at the Data
+```{r, warning=FALSE, message=FALSE, echo=TRUE}
+head(mtcars)
+```
+
+## Purpose and Use of the App
+Along the way in the JHU Data Science: Statistics and Machine Learning Specialization, we have learned about different types of models and how the inclusion of certain variables makes a difference in the interpretation and predictions on new data. To quickly look at how the inclusion of certain variables affects the model and summary statistics, we have developed an app to quickly rerun a linear model with user-selected variables of the mtcars dataset which aim to predict MPG.
+
+- Use the checkboxes to select the variables of interest and the table will update
+- Use the variable descriptions at the bottom of the app for more information on which to include
+- The table is searchable, sortable, and includes some other interactive features to play around with
+
+
+## Links to App and Github
+
+App: https://mitcc99.shinyapps.io/devdataproducts_finalproject/
+
+Github: https://github.com/mitcc99/DevDataProductsFinalProject.git
+
+
+
+
